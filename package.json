@@ -1,0 +1,30 @@
+{
+  "name": "mc-tracker",
+  "version": "1.0.0",
+  "description": "A bot for tracking Hypixel status updates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "hypixel",
+    "tracker"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16.20.2"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.4.4"
+  }
+}
